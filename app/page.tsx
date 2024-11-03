@@ -1,7 +1,7 @@
 'use client'
 import { Phone } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
-import { User, Code, BarChart, Headphones, Palette, LayoutDashboard, Lightbulb, MessageCircle } from "lucide-react"
+import { User, Code, BarChart, Palette, LayoutDashboard, Lightbulb, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -21,13 +21,10 @@ import {
   Warehouse,
   Users,
   Briefcase,
-  PieChart,
-  Target,
   ShoppingBag
 } from "lucide-react"
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
-import Image from "next/image"
 
 function EmailCaptureForm() {
   const [email, setEmail] = useState('');
